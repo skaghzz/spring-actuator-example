@@ -48,7 +48,7 @@ management.endpoints.web.exposure.include=health,info
 management.endpoint.health.show-details=always
 ```
 
-### 2.2 endpoint exposing : 
+### 2.2 endpoint exposing
 - enable/disable은 endpoint를 내부적으로 제거해서 사용하지 않는 것이다. 어떤 endpoint를 사용할 수 있는지는 expose를 이용해서 조작이 가능다.
 - exposing의 default는 [여기](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.endpoints.exposing)서 확인이 가능하다.
 - default상태에서는 Web을 통해서는 health만 노출되어있다.
