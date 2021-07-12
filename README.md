@@ -70,6 +70,8 @@ management.endpoint.health.show-details=always
 - MSA 구조에서 eureka와 연동하면 유용하게 이용가능 할 것 같다.
 - actuator는 시스템을 조작할 수 있는 권한이 있음에 따라 접근제어를 철저하게 관리해야 한다. spring security와 함께 많이 이용한다.
 - 개발적 관점이 아닌 운영적 관점에서 기능을 알아보았다. spring은 운영에도 유용한 기능을 많이 제공한다.
+- spring boot admin에서 spring actuator를 이용해서 애플리케이션을 모니터링하고 관리할 수 있는데 7/12 기준 spring boot 2.5.0.M1 버전 이상부터 지원을 하지 않는다.
+  - [codecentric/spring-boot-admin](https://github.com/codecentric/spring-boot-admin)
 
 ## 5.참고
 - https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
